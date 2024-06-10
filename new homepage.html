@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Cuisinier</title>
+    <style>
+      body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('bck image.jpg'); /* Replace URL_TO_YOUR_IMAGE with the URL of your image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Optional: keeps the background image fixed while scrolling */
+        }
+
+        .header {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #333;
+        }
+
+        .header nav {
+            margin-top: 10px;
+        }
+
+        .header nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .banner {
+           
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .banner h2 {
+
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .top-recipes-heading {
+            font-size: 2.5rem;
+            color: #ffffff;
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .recipes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .recipe {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            width: calc(33.333% - 20px);
+            transition: transform 0.2s;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .recipe a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .recipe img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .recipe h3 {
+            margin: 0;
+            padding: 15px;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .recipe p {
+            padding: 0 15px 15px;
+            color: #666;
+        }
+
+        .recipe:hover {
+            transform: translateY(-5px);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>I Cuisinier</h1>
+        <nav>
+            <a href="new homepage.html">Home</a>
+            <a href="category.html">Categories</a>
+            <a href="about us.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+    <div class="banner">
+        <h2>Welcome to i-Cuisinier</h2>
+    </div>
+    <div class="content home-page" id="home">
+        <h2 class="top-recipes-heading">Top Recipes</h2>
+        <div class="recipes">
+            <div class="recipe">
+                <a href="pastaw.html">
+                    <img src="pasta.jpg" alt="Pasta">
+                    <h3>Pasta</h3>
+                    <p>Short description of the recipe. It's delicious and easy to make.</p>
+                </a>
+            </div>
+            <div class="recipe">
+                <a href="chicken%20burgerw.html">
+                    <img src="chicken burger.jpg" alt="Chicken Burger">
+                    <h3>Chicken Burger</h3>
+                    <p>Short description of the recipe. It's delicious and easy to make.</p>
+                </a>
+            </div>
+            <div class="recipe">
+                <a href="chicken%20chilli%20dryw.html">
+                    <img src="chicken chilli dry.jpg" alt="Chicken Chilli Dry">
+                    <h3>Chicken Chilli Dry</h3>
+                    <p>Short description of the recipe. It's delicious and easy to make.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 I Cuisinier. All rights reserved.</p>
+    </div>
+</body>
+</html>

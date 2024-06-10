@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i-Cuisinier Web App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #DFDFDF;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            width: 100%;
+            background-color: #3F3D56;
+            color: #FFFFFF;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-bottom: 3px solid #FFFFFF; /* Added border */
+        }
+
+        .header .site-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .header nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .header nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .header nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+            position: relative;
+            margin-top: 20px;
+            border: 2px solid #3F3D56; /* Added border */
+            border-radius: 10px;
+        }
+
+    
+
+        .box {
+            width: 70%;
+            background-color: #384E7A;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            color: #E6E6E6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px; /* Adjusted margin */
+            border: 2px solid #FFFFFF; /* Added border */
+        }
+
+        .box img {
+            max-width: 120px;
+            border-radius: 10px;
+            margin-top: 10px;
+            border: 2px solid #FFFFFF; /* Added border */
+        }
+
+        .description {
+            width: 100%;
+            font-size: 18px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #3F3D56;
+            border-top: 1px solid #3F3D56; /* Added border */
+            padding-top: 10px; /* Added padding for better spacing */
+        }
+
+        .rating-container {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .rating-container h3 {
+            color: #3F3D56;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .rating {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 10px; /* Added padding for better spacing */
+        }
+
+        .rating i {
+            color: #000000;
+            margin-right: 5px;
+        }
+
+        .button {
+            width: 200px;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            color: #FFFFFF;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        .customize {
+            background-color: #384E7A;
+        }
+
+        .customize a {
+            color: #ffffff;
+            text-decoration: none;
+            display: block;
+        }
+
+        .customize a:hover {
+            text-decoration: underline;
+        }
+
+        .cook-mode {
+            background-color: #384E7A;
+        }
+
+        .home-button {
+            margin-top: 20px; /* Adjusted margin */
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .home-button i {
+            color: #384E7A;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="site-title">i-Cuisinier</div>
+        <nav>
+            <a href="new homepage.html">Home</a>
+            <a href="recipe3.html" >Recipes</a>
+            <a >About</a>
+            <a >Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="splash"></div>
+        <div class="box">
+            <h2>Chicken Chilli Dry</h2>
+            <img src="chicken chilli dry.jpg" alt="Chicken Chilli Dry">
+        </div>
+        <div class="description">
+            
+            Skillfully stir-fried to a perfect golden brown, complemented by a hint of garlic and ginger, delivering an indulgent and refined culinary experience.
+        </div>
+        <div class="rating-container">
+            <h3>Rating</h3>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <button class="button customize"><a href="chicken chilli dryw.html">Customize Recipe</a></button>
+        <button class="button cook-mode">Easy Cook Mode</button>
+        <a href="new homepage.html" class="home-button"><i class="fas fa-home"></i></a>
+    </div>
+</body>
+</html>
